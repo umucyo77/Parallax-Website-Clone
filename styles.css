@@ -67,6 +67,27 @@ body{
   }
 }
 
+.about{
+  display: flex;
+  background: #fff;
+  color: #616161;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+
+.about-text{
+  line-height: 1.5;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  display: grid;
+  justify-content: center;
+  
+}
+
+
+
 .about-section{
   padding:80px 15%;
   background: #fff;
@@ -74,13 +95,63 @@ body{
 }
 
 .about-header{
-  text-align: center;
-  font-size: 20px; 
+  text-align:justify;
+  font-size: 18px; 
   margin-bottom: 40px;
 } 
 
  .about-content{
   display: flex;
   gap: 40px;
-  
+  margin-bottom: 20px;
+
 } 
+
+.about-image{
+  width: 100%;
+  max-width: 400px;
+  border-radius: 4px;
+}
+
+.about-te{
+  flex: 1;
+  line-height: 1.5;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+
+}
+
+.skills-title{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.skill-bar{
+  width: 100%;
+  background: #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.skill-fill{
+  background: #616161;
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+  font-size: 14px;
+}
+
+.skill-90{width: 90%;}
+.skill-85{width: 85%;}
+.skill-75{width: 75%;}
+
+/* ================ RESPONSIVENESS ================= */
+
+@media(max-width:768px){
+  .about-content{
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-section{
+    padding: 60px 8%;
+  }
+}
