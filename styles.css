@@ -66,3 +66,21 @@ body{
 
   }
 }
+
+.about-section{
+  padding:80px 15%;
+  background: #fff;
+  color: #555; 
+}
+
+.about-header{
+  text-align: center;
+  font-size: 20px; 
+  margin-bottom: 40px;
+} 
+
+ .about-content{
+  display: flex;
+  gap: 40px;
+  
+} 
