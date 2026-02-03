@@ -35,7 +35,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-attachment: fixed;
+  background-attachment:inherit;
  
   min-height: 500px;
 }
@@ -47,7 +47,8 @@ body{
   font-family: 'Times New Roman', Times, serif;
   letter-spacing:normal;
   font-size: 20px;
-   position: static;
+  
+  
 }
 @media(max-width:600px){
   .hero{
@@ -196,7 +197,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-attachment: fixed;
+  background-attachment: inherit;
   min-height: 500px;
 }
 
@@ -290,7 +291,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-attachment: fixed;
+  background-attachment: inherit;
   min-height: 500px;
   max-width: 100%;
 }
