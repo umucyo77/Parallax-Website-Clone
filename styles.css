@@ -36,7 +36,7 @@ body{
   align-items: center;
   justify-content: center;
   background-attachment:inherit;
- 
+  z-index: auto;
   min-height: 500px;
 }
 
@@ -406,6 +406,7 @@ display: flex;
   margin-bottom: 15px;
   color: #ecf0f1;
   cursor: pointer;
+  margin-left: 600px;
 }
 
 .font-awasome{
@@ -418,8 +419,7 @@ display: flex;
 .Powered-by{
   font-size: 16px;
   color: #95a5a6;
-  margin-top: 20px;
-  padding-top: 10px;
+  margin: 10px 0;
   border-top: 1px solid #34495e;
 }
 
